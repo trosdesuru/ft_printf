@@ -6,7 +6,7 @@
 /*   By: edhernan <edhernan@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/23 16:36:45 by edhernan          #+#    #+#             */
-/*   Updated: 2024/02/23 20:17:08 by edhernan         ###   ########.fr       */
+/*   Updated: 2024/02/24 14:52:49 by edhernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,8 @@
 # include <unistd.h>
 # include <stdarg.h>
 
-typedef struct s_list
-{
-	void			*content;
-	struct s_list	*next;
-}	t_list;
-
 int		ft_printf(char const *s, ...);
-int		ft_prchar(char const s, int count);
+int		ft_prchar(char const c, int count);
 int		ft_prdigit(int n, int count);
 int		ft_prhexalow(unsigned long hex, int count);
 int		ft_prhexaup(unsigned int hexa, int count);

@@ -6,7 +6,7 @@
 #    By: edhernan <edhernan@student.42barcel>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/23 16:38:57 by edhernan          #+#    #+#              #
-#    Updated: 2024/02/23 18:15:46 by edhernan         ###   ########.fr        #
+#    Updated: 2024/02/24 15:01:32 by edhernan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,7 +33,7 @@ ${NAME}:	${OBJS}
 			ar rc ${NAME} ${OBJS}
 
 %.o : %.c	ft_printf.h Makefile
-			${CC} ${CFLAGS} -c $<
+			${CC} ${CFLAGS} -c $< -o $@
 
 clean:
 			@rm -f ${OBJS}
