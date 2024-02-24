@@ -6,7 +6,7 @@
 /*   By: edhernan <edhernan@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/22 16:09:25 by edhernan          #+#    #+#             */
-/*   Updated: 2024/02/24 14:08:33 by edhernan         ###   ########.fr       */
+/*   Updated: 2024/02/24 18:01:36 by edhernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,4 +82,5 @@ int	main(void)
 	ft_printf("My name is %s\n", c);
 //	printf("My name is %s\n", c);
 	return (0);
-}*/
+}
+*/
