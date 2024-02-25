@@ -6,7 +6,7 @@
 /*   By: edhernan <edhernan@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/22 16:09:25 by edhernan          #+#    #+#             */
-/*   Updated: 2024/02/24 18:01:36 by edhernan         ###   ########.fr       */
+/*   Updated: 2024/02/25 19:58:31 by edhernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,12 +75,10 @@ int	ft_printf(char const *s, ...)
 /*
 int	main(void)
 {
-	char	*c;
+	char	*c = "Edu";
 
-	c = NULL;
-
-	ft_printf("My name is %s\n", c);
-//	printf("My name is %s\n", c);
+	ft_printf("ft_print Lenght = %d\n", ft_printf("My name is %s\n", c));
+	printf("printf Lenght = %d\n", ("My name is %s\n", c));
 	return (0);
 }
 */
